@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/*"
-  to = "/"
+  from = "/api/*"
+  to = "https://jsonplaceholder.typicode.com/posts"
   status = 200
   force = true
