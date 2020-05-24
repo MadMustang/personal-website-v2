@@ -1,0 +1,6 @@
+# Redirects any routing back to main url
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
+  force = true
