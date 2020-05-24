@@ -3,3 +3,9 @@
   to = "https://jsonplaceholder.typicode.com/posts"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/about"
+  to = "/"
+  status = 200
+  force = true
