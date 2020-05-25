@@ -95,6 +95,17 @@ header .logo a {
 	width: 100%;
 	height: auto;
 	clear: both;
+	display: block;
+	transition: height 0.25s ease;
+	-webkit-transition: height 0.25s ease;
+}
+.main-navigation.not-clicked {
+	background: #000000;
+	padding: 24px 30px 42px;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	clear: both;
 	display: none;
 }
 .main-navigation > li {
@@ -112,12 +123,12 @@ header .logo a {
 	border: none;
 }
 .main-navigation li a:hover {
-	color: #FF0077;
+	color: #31C6E8;
 	padding-left: 1rem;
 }
 .main-navigation li.current > a {
 	background: none;
-	color: #FF0077;
+	color: #31C6E8;
 }
 
 /**
@@ -135,7 +146,7 @@ header .logo a {
 }
 .menu-toggle span {
 	display: block;
-	background-color: #FF0077;
+	background-color: #31C6E8;
 	width: 24px;
 	height: 3px;
 	margin-top: -1.5px;
@@ -193,7 +204,7 @@ header .logo a {
 	background-color: rgba(255, 0, 119, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-	background-color: #ff0077;
+	background-color: #31C6E8;
 	-moz-transition-delay: 0s, 0.2s;
 	-o-transition-delay: 0s, 0.2s;
 	-webkit-transition-delay: 0s, 0.2s;
