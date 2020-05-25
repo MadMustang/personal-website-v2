@@ -1,0 +1,27 @@
+<!-- Navigation Menu -->
+<header>
+    <div class="row">
+
+        <!-- Responsive style container -->
+        <div class="top-bar">
+
+            <a class="menu-toggle" [ngClass] = "isMenuToggleClicked ? 'is-clicked' : ''" href="#" (click)="menuToggleClick()"><span>Menu</span></a>
+
+            <!-- Logo on navigation mnu -->
+            <div class="logo">
+                <a href="index.html">ROY</a>
+            </div>
+
+            <!-- Navigation menu dropdown contents -->
+            <nav id="main-nav-wrap">
+                <ul class="main-navigation">
+                    <li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+				    <li><a class="smoothscroll"  href="#about" title="">About</a></li>
+				    <li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+				    <li><a class="smoothscroll"  href="#works" title="">Works</a></li>					
+				    <li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
