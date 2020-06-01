@@ -96,8 +96,6 @@ header .logo a {
 	height: auto;
 	clear: both;
 	display: block;
-	transition: height 0.25s ease;
-	-webkit-transition: height 0.25s ease;
 }
 .main-navigation.not-clicked {
 	background: #000000;
@@ -121,6 +119,7 @@ header .logo a {
 	padding: 15px 0;
 	line-height: 16px;
 	border: none;
+	transition: padding-left 200ms;
 }
 .main-navigation li a:hover {
 	color: #31C6E8;
